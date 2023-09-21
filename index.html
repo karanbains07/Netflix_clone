@@ -4,22 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
   </head>
   <body>
     <div id="main">
       <div id="page1">
         <div id="nav">
-          <img src="./logo.png" />
+          <img src="./assets/pg1/logo.png" />
           <div id="right-nav">
             <div class="lang">
-              <img src="./lang.png" alt="" class="translate" />
+              <img src="./assets/pg1/lang.png" alt="" class="translate" />
               <select name="lang" id="lang">
                 <option value="">English</option>
                 <option value="">Spanish</option>
@@ -41,9 +41,33 @@
             <button>Get Started<i class="ri-arrow-right-s-line"></i></button>
           </div>
         </div>
+        <div id="shade"></div>
+        <div id="shade2"></div>
       </div>
-      <div id="shade"></div>
-      <div id="shade2"></div>
+      <div id="page2">
+        <div id="parent">
+          <div id="box">
+            <div id="left-p2">
+              <h1>Enjoy on your TV</h1>
+              <h2>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast, <br />
+                Apple TV, Blu-ray players and more.
+              </h2>
+            </div>
+            <div id="right-p2">
+              <img src="./assets/pg2/tv.png" alt="tv" />
+              <div id="video-cont">
+                <video
+                  src="./assets/pg2/video1.m4v"
+                  autoplay
+                  loop
+                  muted
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

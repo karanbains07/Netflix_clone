@@ -15,13 +15,14 @@ body {
 
 #main {
   position: relative;
+  overflow: hidden;
 }
 
 #page1 {
   width: 100vw;
   height: 100vh;
-  position: absolute;
-  background-image: url(./bg.jpg);
+  position: relative;
+  background-image: url(../assets/pg1/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -45,6 +46,15 @@ body {
     rgba(0, 0, 0, 0.8) 100%
   );
   z-index: 20;
+}
+
+#page2 {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: #000;
+  color: #fff;
 }
 
 #nav {
@@ -187,4 +197,54 @@ body {
   font-size: 25px;
   width: fit-content;
   display: inline-block;
+}
+
+#parent {
+  border-top: 8px solid #302f2f;
+  border-bottom: 8px solid #302f2f;
+  width: 100%;
+  padding: 25px 0;
+}
+
+#box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 20px;
+}
+
+#left-p2 h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+#left-p2 h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#right-p2 {
+  position: relative;
+}
+
+#right-p2 img {
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#video-cont {
+  position: absolute;
+  width: 73%;
+  height: 55%;
+  top: 20%;
+  left: 13%;
+}
+
+#right-p2 video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
