@@ -130,24 +130,24 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
-  width: 62vw;
+  width: 70vw;
 }
 
 #container h1 {
-  font-size: 3.2rem;
+  font-size: 3rem;
   letter-spacing: -1px;
   font-weight: 700;
 }
 
 #container h2 {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   font-weight: 500;
   margin-top: 18px;
   letter-spacing: -0.5px;
 }
 
 #container h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 300;
   margin-top: 15px;
   letter-spacing: -0.8px;
@@ -181,7 +181,7 @@ body {
   color: #fff;
   padding: 0.7vw 1.3vw;
   border-radius: 5px;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-weight: 500;
   border: none;
   cursor: pointer;
@@ -194,7 +194,7 @@ body {
 
 #container #details button i {
   margin-left: 5px;
-  font-size: 25px;
+  font-size: 22px;
   width: fit-content;
   display: inline-block;
 }
